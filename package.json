@@ -1,0 +1,31 @@
+{
+  "name": "require-modules",
+  "version": "0.4.0",
+  "description": "Require modules in a directory with env",
+  "main": "./lib",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tarkus/require-modules.git"
+  },
+  "keywords": [
+    "require",
+    "modules"
+  ],
+  "author": "Tarkus Liu <tarkus.nnkh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarkus/require-modules/issues"
+  },
+  "homepage": "https://github.com/tarkus/require-modules",
+  "devDependencies": {
+    "should": "~3.3.1",
+    "coffee-script": "~1.7.1",
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
