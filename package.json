@@ -1,6 +1,6 @@
 {
   "name": "require-modules",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Require modules in a directory with env",
   "main": "./lib",
   "scripts": {

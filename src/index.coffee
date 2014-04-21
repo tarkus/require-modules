@@ -39,7 +39,7 @@ module.exports = (dir, _options) ->
       required[name] = content
       continue unless _options.detect_env
       required[name] = content['all'] if content['all']
-      required[name] = _.merge content['all'], content[env] if content[env]
+      required[name] = _.merge required[name], content[env] if content[env]
 
     modules.push required
 
