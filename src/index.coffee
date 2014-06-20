@@ -2,7 +2,7 @@ fs   = require 'fs'
 path = require 'path'
 _    = require 'lodash'
 
-env = process.env.NODE_DEV || 'development'
+env = process.env.NODE_ENV or 'development'
 
 options =
   detect_env: true
